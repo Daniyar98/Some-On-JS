@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.header_top_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #F2F2F2;
+    gap: 40px;
+}
+
+.header_top_block h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 55px;
+    color: #0088a2
+}
+
+/* NAV */
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    flex: 0 1 20%;
+}
+
+.menu__item {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    background-color: #7d7d7d;
+    padding: 10px 0;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.menu__item:hover {
+    background-color: #0088A2;
+}
+
+.one {
+    max-width: 90%;
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.question_card {
+    flex: 0 1 30%;
+    position: relative;
+    transition: .3s;
+}
+
+.question_card:hover {
+    transform: scale(1.08);
+}
+
+.question_card img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.question_card p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    width: 80%;
+}
+
+/* SECTION TWO */
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 60px;
+}
+
+.two h2 {
+    padding: 40px 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    color: #0088A2;
+}
+
+.about_app {
+    position: relative;
+}
+
+.app_img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.app_btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* SECTION THREE */
+
+.three {
+    display: flex;
+    margin: 80px auto;
+    max-width: 90%;
+}
+
+.gallery {
+    flex: 0 1 25%;
+}
+
+.gallery__container {
+    display: flex;
+    position: relative;
+}
+
+.gallery img:nth-child(2) {
+    position: absolute;
+    top: 8%;
+    left: 70%;
+    z-index: 2;
+}
+
+.gallery img:nth-child(3) {
+    position: absolute;
+    left: 155%;
+    z-index: 3;
+}
+
+.gallery img:nth-child(4) {
+    position: absolute;
+    top: 8%;
+    left: 225%;
+    z-index: 4;
+}
+
+.gallery img:nth-child(5) {
+    position: absolute;
+    left: 295%;
+    z-index: 5;
+}
+
+
+.gallery__container img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* SECTION FOUR */
+
+.four {
+    margin: 160px 0 80px 0;
+}
+
+.four h2 {
+    padding: 0 0 40px 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 130.73px;
+    text-align: center;
+    color: #0088A2;
+}
+
+.about__project {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.four p {
+    font-family: "Roboto", sans-serif;
+    line-height: 56px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #707070;
+}
+
+/* SECTION FIVE */
+.five {
+    background-color: white;
+    text-align: center;
+}
+
+.five h2 {
+    padding: 40px 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    color: #0088A2;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.android {
+    flex: 0 1 30%;
+}
+
+.qr {
+    flex: 0 1 25%;
+}
+
+.container img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.five p {
+    width: 70%;
+    margin: 0 auto;
+    padding: 80px 0 120px 0;
+    font-family: "Roboto", sans-serif;
+    line-height: 42px;
+    font-size: 23px;
+    font-weight: 400;
+    color: #707070;
+}
+
+/* FOOTER */
+footer {
+    background-color: #0088a2;
+    text-align: center;
+}
+
+
+footer h2 {
+    color: #FFFFFF;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    line-height: 40px;
+    padding: 60px 0;
+    font-weight: 600;
+}
+
+.footer__socials {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.vk {
+    flex: 0 1 5%;
+}
+
+.instagram {
+    flex: 0 1 5%
+}
+
+.facebook {
+    flex: 0 1 5%;
+}
+
+.footer__socials img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.footer__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    flex: 0 1 30%;
+}
+
+.adress {
+    flex: 0 1 30%;
+}
+
+.help {
+    flex: 0 1 30%;
+}
+
+footer {
+    padding: 40px 0;
+}
+
+footer h3 {
+    color: #FDFDFD;
+    font-size: 45px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    padding: 40px 0;
+}
+
+footer p {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    padding: 5px 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/* BURGER MENU */
+#toggle {
+    /* прозрачность */
+    opacity: 0;
+}
+
+
+/* Стилизация кнопки */
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 35px;
+    height: 35px;
+    z-index: 10;
+    user-select: none;
+    padding: 3px;
+    border-radius: 6px;
+    backdrop-filter: blur(10px);
+}
+
+.btn span,
+.btn span::before,
+.btn span::after {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #0088a2;
+    transition: .3s;
+}
+
+
+.btn span::before {
+    content: '';
+    top: -8px;
+}
+
+
+.btn span::after {
+    content: '';
+    top: 8px;
+}
+
+
+.burger_menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    visibility: hidden;
+    width: 300px;
+    height: 100%;
+    padding: 80px 0;
+    text-align: center;
+    background-color: #FFFFFF;
+    z-index: 9;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: .5s ease-in-out;
+}
+
+.burger_menu .menu__item {
+    display: block;
+    background-color: #FFFFFF;
+    color: #0088a2;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    line-height: 32.68px;
+    text-decoration: none;
+    padding: 20px 0;
+}
+
+.burger_menu .menu__item:hover {
+    background-color: #0088A2;
+    color: #fff;
+}
+
+.burger_menu .line {
+    display: flex;
+    width: 100%;
+    height: 1px;
+    border: 0.5px solid #0088A2;
+}
+
+
+#toggle:checked~.btn span {
+    transform: rotate(45deg);
+}
+
+#toggle:checked~.btn span::before {
+    top: 0;
+    transform: rotate(-90deg);
+}
+
+
+#toggle:checked~.btn span::after {
+    top: 0;
+    transform: rotate(0deg);
+}
+
+#toggle:checked~.burger_menu {
+    left: 0;
+    visibility: visible;
+}
