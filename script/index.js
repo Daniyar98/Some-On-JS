@@ -3,7 +3,7 @@ const header = document.createElement('header')
 const header_top_block = document.createElement('div')
 header_top_block.className = 'header_top_block'
 const logo = document.createElement('img')
-logo.src = '../logo/logo.png'
+logo.src = './logo/logo.png'
 logo.alt = 'logo'
 const main_title = document.createElement('h1')
 main_title.textContent = 'SLOGAN SLOGAN SLOGAN'
@@ -45,7 +45,7 @@ for (let i = 0; i < 3; i++) {
     question_card.className = 'question_card'
 
     const question_card_img = document.createElement('img')
-    question_card_img.src = '../images/question.png'
+    question_card_img.src = './images/question.png'
     question_card_img.alt = 'question'
 
     const question_card_text = document.createElement('p')
@@ -69,12 +69,12 @@ about_app.className = 'about_app'
 
 const app_img = document.createElement('img')
 app_img.className = 'app_img'
-app_img.src = '../images/about.png'
+app_img.src = './images/about.png'
 app_img.alt = 'app_img'
 
 const app_btn = document.createElement('img')
 app_btn.className = 'app_btn'
-app_btn.src = '../logo/play-button.png'
+app_btn.src = './logo/play-button.png'
 
 // =================================================
 
@@ -131,14 +131,14 @@ const android = document.createElement('div')
 android.className = 'android'
 
 const android_img = document.createElement('img')
-android_img.src = '../logo/android.png'
+android_img.src = './logo/android.png'
 android_img.alt = 'android'
 
 const qr = document.createElement('div')
 qr.className = 'qr'
 
 const qr_img = document.createElement('img')
-qr_img.src = '../logo/icon.png'
+qr_img.src = './logo/icon.png'
 qr_img.alt = 'qr'
 
 const sectionFive_text = document.createElement('p')
@@ -158,17 +158,17 @@ footerSocials.className = 'footer__socials'
 const vk = document.createElement('div')
 vk.className = 'vk'
 const vkLogo = document.createElement('img')
-vkLogo.src = '../logo/vk.png'
+vkLogo.src = './logo/vk.png'
 
 const instagram = document.createElement('div')
 instagram.className = 'instagram'
 const instagramLogo = document.createElement('img')
-instagramLogo.src = '../logo/instagram (1).png'
+instagramLogo.src = './logo/instagram (1).png'
 
 const facebook = document.createElement('div')
 facebook.className = 'facebook'
 const facebookLogo = document.createElement('img')
-facebookLogo.src = '../logo/facebook.png'
+facebookLogo.src = './logo/facebook.png'
 // == //
 const footerItems = document.createElement('div')
 footerItems.className = 'footer__items'
